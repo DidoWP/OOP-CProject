@@ -1,6 +1,4 @@
-﻿  Account.cpp
-  Main.cpp
+﻿  Main.cpp
   Shop.cpp
   Generating Code...
-D:\Documents\Desktop\Dido\FMI\OOP\Online Shop\Project1\Shop.cpp(40): warning C4715: 'Shop::print_login_menu': not all control paths return a value
-  Project1.vcxproj -> D:\Documents\Desktop\Dido\FMI\OOP\Online Shop\Debug\MyOnlineShop.exe
+  Project1.vcxproj -> D:\Documents\Desktop\FMI\FirstYear\OOP\OOP-CProject\Online Shop\Debug\MyOnlineShop.exe

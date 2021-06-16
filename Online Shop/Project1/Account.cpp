@@ -34,7 +34,6 @@ bool Account::operator==(const Account& other_object)
 {
 	if (username == other_object.username && password == other_object.password)
 		return true;
-
 	return false;
 }
 

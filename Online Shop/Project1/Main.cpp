@@ -24,8 +24,8 @@ int main()
 	system("cls");
 	cout << "Choose what u whant to buy\n\n";
 
-	Shoe s1("Nike", 99.90, "nike", "snikers", 8.5, 43);
-	Shoe s2("sda", 23, "das", "S", 4, 40);
+	Shoe s1("Sneakers", 99.90, "nike", "Super cool", 8.5, 43);
+	Shoe s2("Heels", 228.90, "Pachoti", "classy", 5, 37);
 	Headphones h1("beats", 44, "nike", "qeq", 'S');
 	Headphones h2("Beats By Dre", 99, "Apple", "nz", 'L');
 	Smartphone sp1("Smsung Galaxy s18", 350, "Samsung", "normal", "3500 mAch", "Galaxy s18");

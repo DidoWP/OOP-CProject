@@ -12,8 +12,8 @@ void Shop::print_starting_menu() const
 	cout << "/////    Welcome to my shop    /////";
 	cout << endl << endl << endl;
 	cout << "Choose oprtion:" << endl;
-	cout << "1. I have account" << endl;
-	cout << "2. I don't have account" << endl;
+	cout << "1. I have an account" << endl;
+	cout << "2. I don't have an account" << endl;
 
 }
 
@@ -36,6 +36,7 @@ Account Shop::print_login_menu() const
 		}
 	}
 	cout << "Error. This acc don't exist.\n\n";
+	exit(0);
 
 }
 void Shop::print_singin_menu()
@@ -51,11 +52,11 @@ void Shop::print_singin_menu()
 		Account newAcc(username, password);
 		accaunt_list.push_back(newAcc);
 		cout << endl << "Your account is created!" << endl;
-		Shop::print_login_menu();
+		print_login_menu();
 	}
 	else {
-		cout << "Passwords don't match" << endl;
-		Shop::print_singin_menu();
+		cout << "Passwords don't match. Try again!" << endl;
+		print_singin_menu();
 	}
 	
 }
